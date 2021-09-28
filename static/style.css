@@ -911,3 +911,145 @@
 
 }
 
+@media only screen and (max-width: 500px){
+    .modal-dialog{
+        width: 93vw;
+    }
+
+    .alert{
+        display: none;
+    }
+
+    .modal-header{
+        background: none;
+    }
+
+    .mobile-header{
+        display: block;
+        padding-top: 10px;
+        padding-left: 10px;
+        padding-bottom: 10px;
+    }
+
+    .create-account-modal{
+        display: none;
+    }
+
+    .modal-header{
+        padding-bottom: 0px;
+    }
+
+    .modal-body{
+        padding-top: 0px;
+        padding-right: 0px;
+    }
+
+    .modal-content-form{
+        padding-right: 10px;
+    }
+
+    .modal-content-form-left{
+        padding-left: 15px;
+    }
+
+    .first-last-name input{
+        width: 35vw;
+    }
+
+    .email input, .password input{
+        width: 70vw;
+    }
+
+    .confirm-password input{
+        width: 70vw;
+    }
+
+    .modal-content-form-right{
+        display: none;
+    }
+
+    .signup-mobile{
+        display: flex;
+        justify-content: flex-start;
+    }
+    
+    .signup-mobile a{
+        padding-left: 50px;
+        cursor: pointer;
+        color: blue;
+        padding-top: 5px;
+    }
+
+    .signup-buttons{
+        display: none;
+    }
+
+    .signup-buttons-mobile{
+        display: block;
+        padding-top: 25px;
+    }
+
+    .signup-buttons-mobile button{
+        width: 250px;
+        height: 38px;
+        border-radius: 20px;
+    }
+    
+    .create-account-button{
+        width: 130px!important;
+        height: 36px!important;
+        background: #2F6CE5;
+        color: #FFFFFF;
+    }
+    
+    .create-account-button a{
+        text-decoration: none;
+        color: #FFFFFF;
+    }
+    
+    .signup-buttons-2{
+        padding-top: 25px;
+    }
+    
+    .google-button{
+        padding-top: 10px;
+    }
+    
+    .google-button img{
+        width: 16px;
+    }
+    
+    .facebook-button img{
+        width: 16px;
+    }
+    
+    .facebook-button button{
+        background: #FFFFFF;
+    }
+    
+    .google-button button{
+        background: #FFFFFF;
+    }
+
+    .agreement{
+        padding-top: 30px;
+        text-align: center;
+        font-size: 11px;
+        line-height: 16px;
+        width: 75vw;
+    }
+
+    .forgot-password{
+        padding-top: 25px;
+        padding-bottom: 35px;
+    }
+
+    #signin-mobile-button{
+        padding-top: 45px;
+    }
+
+    #signin-mobile-button-2{
+        padding-top: 45px;
+    }
+}
+
