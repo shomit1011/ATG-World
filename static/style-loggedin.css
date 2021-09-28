@@ -1,32 +1,43 @@
 /* Nabvar Styling */
 
+.navbar{
+    width: 100%;
+}
+
 .logo{
-    position: absolute;
-    width: 162.57px;
-    height: 24px;
+    padding-left: 40px;
+    padding-top: 10px;
+    width: 192.57px;
+    height: 34px;
     left: 72px;
     top: 24px;
 }
 
 .search-bar{
-    position: absolute;
+    margin-top: 10px;
+    display: flex;
     width: 360px;
     height: 42px;
     left: 540px;
     top: 16px;
     background: #F2F2F2;
-    border-radius: 21px;
+    border-radius: 20px;
 }
 
 .search{
-    position: absolute;
+    padding-left: 10px;
+    padding-top: 6px;
     left: 22px;
     right: 14.63px;
     top: 6px;
 }
 
+.search-bar-input{
+    padding-top: 7px;
+    padding-left: 18px;
+}
+
 .input{
-    position: absolute;
     width: 242px;
     height: 19px;
     left: 55px;
@@ -42,7 +53,6 @@
 
 .create-account-text{
     display: flex;
-    position: absolute;
     width: 183px;
     height: 21px;
     left: 1161px;
@@ -62,11 +72,15 @@
     border: none;
 }
 
+.create-account{
+    display: flex;
+    padding-top: 10px;
+}
+
 .create-account-img{
-    position: absolute;
     left: 1351px;
     top: 24px;
-    padding-right: 61px;
+    padding-right: 30px;
 }
 
 .show-mobile-top{
@@ -82,7 +96,11 @@
     height: 440px;
     left: 0px;
     top: 72px;
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0.45) 0%, rgba(0, 0, 0, 0.6) 100%);
+}
+
+.banner-img img{
+    width: 99vw;
+    height: 77vh;
 }
 
 .computer-1{
@@ -117,8 +135,9 @@
 
 .main-container{
     position: absolute;
-    left: 200px;
-    top: 560px;
+    left: 60px;
+    top: 92vh;
+    width: 80vw;
 }
 
 .navigation-left ul{
@@ -169,7 +188,7 @@
 
 .first-hr{
     position: absolute;
-    width: 1270px;
+    width: 80vw;
     top: 30px;
     border: 1px solid #020000;
 }
@@ -245,10 +264,10 @@
 
 .second-hr{
     position: absolute;
-    width: 220px;
+    width: 20vw;
     height: 0px;
-    left: 95px;
-    top: 65px;
+    left: 65px;
+    top: 85px;
     border: 1px solid #000000;
 }
 
@@ -427,6 +446,7 @@
 
     .banner-img{
         position: absolute;
+        width: 100vw;
         top: 0px;
         height: 236px;
     }
@@ -550,8 +570,8 @@
     .edit-button{
         display: block;
         position: fixed;
-        left: 88%;
-        top: 85%;
+        left: 71%;
+        top: 75%;
     }
     
 }
