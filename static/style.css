@@ -621,7 +621,7 @@
 @media only screen and (max-width: 880px){
 
     .modal-dialog{
-        width: 420px;
+        width: 93vw;
     }
 
     .alert{
@@ -649,6 +649,15 @@
 
     .modal-body{
         padding-top: 0px;
+        padding-right: 0px;
+    }
+
+    .modal-content-form{
+        padding-right: 10px;
+    }
+
+    .modal-content-form-left{
+        padding-left: 15px;
     }
 
     .modal-content-form-right{
@@ -810,6 +819,10 @@
 
     .navigation-right{
         display: none;
+    }
+
+    .row{
+        margin-right: 0px;
     }
 
     .navigation-mobile{
