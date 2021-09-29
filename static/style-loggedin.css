@@ -92,7 +92,6 @@
 
 .banner-img{
     position: absolute;
-    width: 1440px;
     height: 440px;
     left: 0px;
     top: 72px;
@@ -135,7 +134,7 @@
 
 .main-container{
     position: absolute;
-    left: 60px;
+    left: 110px;
     top: 92vh;
     width: 80vw;
 }
@@ -198,6 +197,10 @@
     padding-top: 10px;
 }
 
+#big-card-1{
+    border: 1px solid #E0E0E0;
+}
+
 .card-heading{
     display: flex;
     justify-content: space-between;
@@ -239,6 +242,23 @@
     justify-content: space-between;
 }
 
+.views img{
+    width: 23px;
+    height: 32px;
+}
+
+.views p{
+    padding-right: 30px;
+    padding-top: 2px;
+}
+
+.share img{
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-left: 2px;
+    padding-top: 3px;
+}
+
 .details-mobile{
     display: none;
 }
@@ -247,6 +267,10 @@
     padding-top: 40px;
     display: flex;
     justify-content: space-evenly;
+}
+
+#location{
+    border: none;
 }
 
 .location-left{
@@ -479,7 +503,7 @@
     .main-container{
         top: 280px;
         left: 30px;
-        width: 100vw;
+        width: 90vw;
     }
 
     .navigation-left{
@@ -488,6 +512,11 @@
 
     .navigation-right{
         display: none;
+    }
+
+    .row{
+        margin-right: 0px;
+        width: 90vw;
     }
 
     .navigation-mobile{
@@ -566,12 +595,12 @@
         background: #FFFFFF;
         border-radius: 10px;
     }
-
+    
     .edit-button{
         display: block;
         position: fixed;
-        left: 71%;
-        top: 75%;
+        left: 77%;
+        top: 80%;
     }
     
 }
