@@ -39,7 +39,7 @@
 
     <!-- Sign up Modal -->
     <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-dialog modal-dialog-centered modal-lg" id="signup-modal">
             <div class="modal-content">
                 <div class="modal-header">
                     <div class="alert" role="alert">
@@ -118,8 +118,8 @@
     <!-- Sign In Modal  -->
 
     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered modal-lg ">
-            <div class="modal-content h-80">
+        <div class="modal-dialog modal-dialog-centered modal-lg " id="signin-modal">
+            <div class="modal-content">
                 <div class="modal-header">
                     <div class="alert" role="alert">
                         Let's learn, share & inspire each other with our passion for computer engineering. Sign up now 🤘🏼
@@ -195,16 +195,20 @@
 
     <div class="banner">
         <div class="banner-img">
-            <img src="./static/images/Rectangle 2banner.png" alt="" class="computer">
+            <!-- <img src="./static/images/banner.png" alt="" class="computer"> -->
+            <div class="banner-text">
+                <p class="computer-1">Computer Engineering</p>
+                <p class="computer-2">142,765 Computer Engineers follow this</p>
+            </div>
         </div>
-        <div class="banner-text">
+        <!-- <div class="banner-text">
             <p class="computer-1">Computer Engineering</p>
             <p class="computer-2">142,765 Computer Engineers follow this</p>
-        </div>
+        </div> -->
     </div>
 
     <div class="show-mobile-top">
-        <button><img src="./static/images/arrow_back_24pxback.png" class="arrow-back" alt=""></button>
+        <img src="./static/images/arrow_back_24pxback.png" class="arrow-back" alt="">
         <button type="button" class="leave-group-mobile" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Join group</button>
     </div>
 
@@ -299,7 +303,7 @@
                         <img src="./static/images/Vectorpencil.png" alt="">
                     </div>
                 </div>
-                <hr class="second-hr">
+                <center><hr class="second-hr"></center>
                 <div class="note">
                     <img src="./static/images/Vectorsymbol.png" alt="">
                     <p>Your location will help us serve better and extend a personalised experience.</p>

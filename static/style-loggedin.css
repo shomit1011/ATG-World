@@ -90,11 +90,22 @@
 
 /* Banner Styling */
 
+.banner{
+    background-image: url('./images/banner.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 50vh;
+}
+
 .banner-img{
-    position: absolute;
-    height: 440px;
-    left: 0px;
-    top: 72px;
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.45) 0%, rgba(0, 0, 0, 0.6) 100%);;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 100vw;
+    height: 50vh;
 }
 
 .banner-img img{
@@ -103,40 +114,28 @@
 }
 
 .computer-1{
-    position: absolute;
-    width: 378px;
-    height: 47px;
-    left: 200px;
-    top: 358px;
-    font-family: IBM Plex Sans;
     font-style: normal;
     font-weight: bold;
-    font-size: 36px;
-    line-height: 47px;
+    font-size: 24px;
+    line-height: 25px;
     color: #FFFFFF;
 }
 
 .computer-2{
-    position: absolute;
-    width: 327px;
-    height: 23px;
-    left: 200px;
-    top: 409px;
-    font-family: IBM Plex Sans;
-    font-style: normal;
     font-weight: normal;
-    font-size: 18px;
-    line-height: 23px;
+    font-size: 14px;
+    line-height: 25px;
     color: #FFFFFF;
 }
 
 /* Main Content Styling  */
 
 .main-container{
-    position: absolute;
-    left: 110px;
-    top: 92vh;
-    width: 80vw;
+    padding-top: 50px;
+    padding-left: 36px;
+    padding-right: 36px;
+    max-width: 1000px;
+    margin: auto;
 }
 
 .navigation-left ul{
@@ -186,9 +185,6 @@
 }
 
 .first-hr{
-    position: absolute;
-    width: 80vw;
-    top: 30px;
     border: 1px solid #020000;
 }
 
@@ -264,7 +260,7 @@
 }
 
 .location{
-    padding-top: 40px;
+    padding-top: 20px;
     display: flex;
     justify-content: space-evenly;
 }
@@ -287,17 +283,13 @@
 }
 
 .second-hr{
-    position: absolute;
-    width: 20vw;
-    height: 0px;
-    left: 65px;
-    top: 85px;
+    width: 88%;
     border: 1px solid #000000;
 }
 
 .note{
     display: flex;
-    padding-top: 50px;
+    padding-top: 10px;
     width: 85%;
     padding-left: 50px;
 }
@@ -314,7 +306,7 @@
 .recommended-groups-heading{
     display: flex;
     padding-left: 50px;
-    padding-top: 20px;
+    padding-top: 10px;
 }
 
 .recommended-groups-heading img{
@@ -340,11 +332,18 @@
 .profile p{
     padding-left: 20px;
     padding-top: 2px;
+    font-size: 14px;
+}
+
+.profile img{
+    width: 35px;
+    height: 35px;
 }
 
 .follow button{
+    font-size: 13px;
     border-radius: 14px;
-    width: 85px;
+    width: 75px;
     background: #EDEEF0;
 }
 
@@ -446,6 +445,7 @@
     .show-mobile-top{
         display: flex;
         justify-content: space-between;
+        cursor: pointer;
     }
 
     .arrow-back{
@@ -468,11 +468,14 @@
         font-weight: bold;
     }
 
-    .banner-img{
-        position: absolute;
+    .banner{
         width: 100vw;
-        top: 0px;
-        height: 236px;
+    }
+
+    .banner-img{
+        width: 100vw;
+        height: 50vh;
+        padding: 50px;
     }
 
     .banner-img img{
@@ -482,28 +485,14 @@
     }
 
     .computer-1{
-        position: absolute;
-        width: 179px;
-        height: 22px;
-        left: 50px;
-        top: 155px;
         font-size: 17px;
+        line-height: 3px;
     }
 
     .computer-2{
-        position: absolute;
-        width: 218px;
-        height: 16px;
-        left: 50px;
-        top: 180px;
         font-size: 12px;
+        line-height: 3px;
         padding-top: 10px;
-    }
-
-    .main-container{
-        top: 280px;
-        left: 30px;
-        width: 90vw;
     }
 
     .navigation-left{
