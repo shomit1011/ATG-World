@@ -146,12 +146,14 @@
     border: 1px solid #D9D9DB;
     height: 45px;
     width: 160px;
+    background: #F7F8FA;
 }
 
 .email input, .password input, .confirm-password input{
     border: 1px solid #D9D9DB;
     height: 45px;
     width: 320px;
+    background: #F7F8FA;
 }
 
 .signup-buttons{
@@ -519,13 +521,9 @@
 
 
 @media only screen and (max-width: 1000px){
-    
+
     .modal{
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-end;
-        align-items: center;
-        top: auto;
+        top: 28%;
     }
 
     .modal-dialog{
@@ -647,31 +645,12 @@
 
 @media only screen and (max-width: 880px){
 
-    #signup-modal{
-        display: flex!important;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        /* top: 9vh; */
-
-        width: 90vw;
-    }
-
-    #signin-modal{
-        display: flex!important;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        /* top: 9vh; */
-        width: 90vw;
-    }
-
     .modal{
         top: 6%;
     }
 
     .modal-dialog{
-        width: 95vw!important;
+        width: 93vw!important;
     }
 
     .alert{
@@ -960,28 +939,10 @@
 
 }
 
-@media only screen and (max-width: 500px){
-
-    #signup-modal{
-        display: flex!important;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        /* top: 9vh; */
-        width: 90vw;
-    }
-
-    #signin-modal{
-        display: flex!important;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        /* top: 9vh; */
-        width: 90vw;
-    }
+@media only screen and (max-width: 450px){
 
     .modal-dialog{
-        width: 95vw;
+        width: 95vw!important;
     }
 
     .alert{
